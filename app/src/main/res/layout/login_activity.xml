@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/awesomeface"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="150dp"
+        android:contentDescription="@string/brand_logo_description" />
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/username_hint"
+        android:inputType="text"
+        android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/editTextConfirmPass"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="50dp"
+        android:hint="@string/re_type_password_hint"
+        android:inputType="textPassword"
+        android:enabled="false"
+        android:importantForAutofill="no" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/newUserButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:text="@string/new_user_button_text" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:text="@string/login_button_text" />
+    </LinearLayout>
+
+
+</LinearLayout>

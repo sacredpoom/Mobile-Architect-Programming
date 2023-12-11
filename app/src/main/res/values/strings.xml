@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">JVeneski_EventTracker_Project2</string>
+    <string name="notificationInformMessage">Do you want to receive notifications on the day of events?</string>
+    <string name="denyButtonText">Deny</string>
+    <string name="allowButtonText">Allow</string>
+    <string name="event_title_tv_string">Event Title:</string>
+    <string name="event_description_tv_string">Event \nDescription:</string>
+    <string name="event_date_tv_string">Event Date:</string>
+    <string name="select_date_button_text">Select Date</string>
+    <string name="event_time_tv_string">Event Time:</string>
+    <string name="select_time_button_text">Select Time</string>
+    <string name="confrim_event_button_text">Confrim Event</string>
+    <string name="create_new_event_fab">create new event</string>
+    <string name="notification_icon_description">notification icon</string>
+    <string name="brand_logo_description">brand logo</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="re_type_password_hint">Re-type password</string>
+    <string name="new_user_button_text">New User</string>
+    <string name="login_button_text">Login</string>
+    <string name="fail_login_toast">Please enter both username and password</string>
+    <string name="new_user_empty_field_warn">Must complete all fields!</string>
+    <string name="failConfirmEvent">All fields must be populated!</string>
+    <string name="delete_event">Delete Event</string>
+</resources>
